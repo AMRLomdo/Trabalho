@@ -1,0 +1,57 @@
+* {
+    margin: 0%;
+}
+header {
+     background-color: white;
+      margin-bottom: 30px ;
+      transition: all ease 500ms;
+     
+}
+header:hover {
+    background-image: linear-gradient(black,green);
+    padding: 30px;
+}
+body {
+    background-color: white;
+}
+nav > a {
+    text-decoration: none;
+    color: rgb(100, 167, 100);
+    font-weight: bold;
+}
+h1 {text-align: center;
+font-weight: bold;
+color: green;
+font-family: "Titulo";
+font-size: 60px;
+}
+.extras {
+   background-image: linear-gradient(white,white);
+   background-size: 0% 3px;
+   background-position: left bottom;
+   transition: all ease 350ms;
+   background-repeat: no-repeat;
+   padding: 10px;
+}
+.extras:hover {
+   background-size: 100% 3px;
+}
+.entrar {
+    border: 3px solid gray;
+    padding: 10px;
+    border-radius: 50px;
+}
+.login {
+    border: 3px solid rgb(216, 178, 178);
+    padding: 10px;
+    border-radius: 50px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+@font-face {
+    font-family: "Titulo";
+    src: url(neurock/Neurock.ttf);
+}
