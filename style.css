@@ -1,11 +1,11 @@
 * {
-    margin: 0%;
+    margin: 0%
 }
 header {
      background-color: white;
       margin-bottom: 30px ;
       transition: all ease 500ms;
-     
+     margin-bottom: 20px;
 }
 header:hover {
     background-image: linear-gradient(black,green);
@@ -19,7 +19,7 @@ nav > a {
     color: rgb(100, 167, 100);
     font-weight: bold;
 }
-h1 {text-align: center;
+.logo {text-align: center;
 font-weight: bold;
 color: green;
 font-family: "Titulo";
@@ -55,3 +55,93 @@ nav {
     font-family: "Titulo";
     src: url(neurock/Neurock.ttf);
 }
+.para1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    text-align: center;
+}
+.txt1 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main1 {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 30px 0px;
+    background-color: green;
+}
+p {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.para2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    text-align: center;
+}
+.txt2 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.main2 {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 30px 0px;
+    background-color: green;
+}
+.para3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    text-align: center;
+}
+.txt3 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.main3 {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 30px 0px;
+    background-color: green;
+}
+.para4 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    text-align: center;
+}
+.txt4 {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.main4 {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    margin: 30px 0px;
+    background-color: green;
+}
+
+
+
